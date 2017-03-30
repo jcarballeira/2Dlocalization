@@ -117,7 +117,7 @@ NP_opt=2;
 if NP_opt==1
     NP=init_NP(laser_real,err_dis,mapmax,SENSOR_RES,NUM_MEASUREMENTS,CELL_SIZE);
 else
-    NP=250;
+    NP=550;
 end
 NP=round(NP);
 fprintf(1,'\n Population size: %i \n',NP);
